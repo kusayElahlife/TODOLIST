@@ -14,7 +14,9 @@ let theAddButton = document.querySelector(".button"),
         
         if (theInput.value.trim() === '') {
       
-          console.log("No Value");
+           
+                new bootstrap.Toast(document.querySelector('.toast')).show();
+               
       
         }
          else {

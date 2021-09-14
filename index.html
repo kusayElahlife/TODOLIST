@@ -11,6 +11,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/all.min.css" rel="stylesheet" />
     <!--load all styles -->
     <title>Yapılacaklar Listesi</title>
@@ -36,33 +37,11 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="toast-body">Listeye eklendi.</div>
+          <div class="toast-body">Do not allow add empty list!</div>
         </div>
       </div>
     </div>
-    <div class="mr-1" style="position: relative">
-      <div style="position: absolute; top: 0; right: 0">
-        <div
-          id="liveToast"
-          class="toast error hide"
-          role="alert"
-          aria-live="assertive"
-          aria-atomic="true"
-          data-delay="4000"
-        >
-          <div>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="toast"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="toast-body">Listeye boş ekleme yapamazsınız!</div>
-        </div>
-      </div>
+    
     </div>
     <div class="container">
       <div class="header">
@@ -81,6 +60,11 @@
         />
         <span id="liveToastBtn" class="button">ADD</span>
       </div>
+      <!--Start Tost-->
+    
+      
+
+      <!--End Tost-->
 
       <ul id="list" class="list"></ul>
       <div class="tasks-content">
@@ -92,6 +76,7 @@
         <div class="tasks-completed">Completed <span>0</span></div>
       </div>
     </div>
+
     <script src="js/jaa.js"></script>
     <script src="js/all.min.js"></script>
     <script
@@ -104,5 +89,7 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
